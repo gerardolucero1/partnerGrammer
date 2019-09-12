@@ -1,23 +1,16 @@
 @extends('layouts.backend')
 @section('content')
 
-<div class="wrapper">
+<div class="wrapper mb-5">
 			<!-- Servicios-->
 			<div class="testimonials-2 section section-testimonials">
 				<div class="container mt-5">
 					<div class="row">
 						<div class="col-lg-5 col-md-5" style="">
-							
-							
-							
-							<img onMouseOver="manitance()" src="http://www.partnergrammer.com/manitance_icon.png" class="maintenance" alt="" style="">
+                            <img onMouseOver="manitance()" src="http://www.partnergrammer.com/manitance_icon.png" class="maintenance" alt="" style="">
 							<img onMouseOver="mobile()" src="http://www.partnergrammer.com/mobile_icon.png" class="mobile" alt="" style="">
 							<img onMouseOver="web()" src="http://www.partnergrammer.com/webdevelopment_icon.png" class="web" alt="" style="">
-							<img onMouseOver="custom()" src="http://www.partnergrammer.com/custom_icon.png" alt="" style="width:15%; margin-top:65%; margin-left:-5%; cursor:pointer;">
-							
-							
-							
-							
+							<img onMouseOver="custom()" src="http://www.partnergrammer.com/custom_icon.png" class="custom">
 						</div>
 						
 						
@@ -39,6 +32,6 @@
 						
 					</div>
 				</div>
-			
+			</div>
   
 @endsection 

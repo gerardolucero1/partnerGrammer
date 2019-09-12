@@ -19,25 +19,30 @@
         -o-background-size: cover;
         background-size: cover;
         }
-
         
-								.button-view-more{
-									background:white; border-radius:5px; text-align:center; padding:15px; color:#2c3e50; font-weight:bold; width:10em;
-									}
+								    .button-view-more{
+                                        background:white; border-radius:5px; text-align:center; padding:15px; color:#2c3e50; font-weight:bold; width:10em;
+                                        }
 									.button-view-more:hover{
-									background:white; border-radius:5px; text-align:center; padding:15px; color:#1abc9c; font-weight:bold; width:10em; transition: all .2s ease; cursor:pointer;
-									}
-							.maintenance{
-									width:25%; margin-top:-40%; transition: all .2s ease;
-									}
+                                        background:white; border-radius:5px; text-align:center; padding:15px; color:#1abc9c; font-weight:bold; width:10em; transition: all .2s ease; cursor:pointer;
+                                        }
+							        .maintenance{
+                                        width:25%; margin-top:-40%; transition: all .2s ease;
+                                        }
 									.maintenance:hover{
-									width:30%; margin-top:-40%; margin-left:-2.5%; cursor:pointer;transition: all .2s ease;
-									}
+                                        width:30%; margin-top:-40%; margin-left:-2.5%; cursor:pointer;transition: all .2s ease;
+                                        }
 									.mobile{
 										width:15%; margin-top:20%; margin-left:-20%; cursor:pointer;transition: all .2s ease;
 										}
 									.mobile:hover{
 										width:20%; margin-top:20%; margin-left:-22.5%; cursor:pointer;transition: all .2s ease;
+										}
+                                    .custom{
+										width:15%; margin-top:5%; margin-left:15%; cursor:pointer;transition: all .2s ease;
+										}
+									.custom:hover{
+										width:18%; margin-top:7%; margin-left:17.5%; cursor:pointer;transition: all .2s ease;
 										}
 									.web{
 										width:40%; margin-top:15%; margin-left:10%; cursor:pointer;transition: all .2s ease;
