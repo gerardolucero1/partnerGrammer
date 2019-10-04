@@ -1,37 +1,292 @@
 @extends('layouts.backend')
 @section('content')
 
-<div class="wrapper mb-5">
-			<!-- Servicios-->
-			<div class="testimonials-2 section section-testimonials">
-				<div class="container mt-5">
-					<div class="row">
-						<div class="col-lg-5 col-md-5" style="">
-                            <img onMouseOver="manitance()" src="http://www.partnergrammer.com/manitance_icon.png" class="maintenance" alt="" style="">
-							<img onMouseOver="mobile()" src="http://www.partnergrammer.com/mobile_icon.png" class="mobile" alt="" style="">
-							<img onMouseOver="web()" src="http://www.partnergrammer.com/webdevelopment_icon.png" class="web" alt="" style="">
-							<img onMouseOver="custom()" src="http://www.partnergrammer.com/custom_icon.png" class="custom">
+			<!-- Inicio de la seccion how we work -->
+		<div class="container mt-5">
+			<div class="row">					
+					<div class="col-sm-12" style="text-align: center; font-size: 40px; font-weight: bold;">
+							<span class="border-left pt-2" >
+									<mark style="color:#0AC775">How </mark>we works	
+							</span>
+					</div>					
+			</div>			
+					<div class="row mt-5">
+						<div class="col-sm-2 offset-sm-1" style="text-align: center;">
+							<img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/how1.jpg" width="100%" class="rounded-circle" alt="">
+							<p class="p-normal">Planning</p>
 						</div>
-						
-						
-						<div class="col-lg-7 col-md-7">			
-							<h1>Our Services</h1>							
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border:solid; border-color:#E3E3E3; border-width:1px; padding-bottom:20px; padding-top:20px;">
-								<p id="title_services" style="font-size:2.5em;">Web Development</p>
-								<p id="content">Everything from sophisticated business automation platforms, to complex e-commerce platforms, leverage web development to provide powerful software to the world in real-time.<br>
-                                At Partnergrammer, Web Development forms a cornerstone of our business technology practices. We use technologies like Java, PHP, .NET & Python to build scalable, 
-                                enterprise-grade software that stands up to rigorous use across a variety of daily situations and it is friendly to use.
-                                </p>
-								
-								<!-- <div class="" style="background:#1abc9c; padding:10px; text-align:center;; padding-left:20px; padding-right:20px; color:white; width:40%; margin-left:30%; margin-top:20px; cursor:pointer">CONTACT US</div>
- -->								<button type="button" style="background-color:#1abc9c; border-color: #1abc9c ;padding:10px; text-align:center;; padding-left:20px; padding-right:20px; color:white; width:40%; margin-left:30%; margin-top:20px" class="btn btn-info" data-toggle="modal" data-target="#ContactModal">CONTACT US</button>
-								
-							</div>
-							
+							<div class="col-sm-2" style="line-height: 200px;">
+								<img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/arrow1.png" width="100%" alt="">
+							</div>							
+						<div class="col-sm-2" style="text-align: center;">
+							<img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/how2.jpg" width="100%" class="rounded-circle" alt="">
+							<p class="p-normal">Design</p>
 						</div>
-						
+							<div class="col-sm-2" style="line-height: 200px;">
+								<img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/arrow2.png" width="100%" alt="">
+							</div>					
+						<div class="col-sm-2" style="text-align: center;">
+							<img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/how3.jpg" width="100%" class="rounded-circle" alt="">
+							<p class="p-normal">Development</p>
+						</div>
 					</div>
+		</div>
+		<!-- Fin de la seccion how we work -->
+
+
+							<br>
+							<br>
+		<!-- Inicio de la seccion con fondo negro -->
+
+		<div class="container-black mt-5" style= ""> 
+			<br>
+			<br>
+			<br>
+			<br>
+				<div class="row ml-2 mr-2 mt-5">
+						<div class="col-sm-4">
+							<div class="container">
+								<div class="row">
+								<div class="col-sm-2"><i class='fab fa-github' style='font-size:48px;color:#0AC775'></i></div>	
+								<div class="col-sm-10"><p class="p-title p-title-cambiante">SEO Ready Code</p></div>
+									</div>	
+									<div class="row">
+											<div class="col-sm-2"></div>	
+											<div class="col-sm-10">Tincidunt felis dignissim justo congue, non rutrum tortor volutpat .</div>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-4">
+								<div class="container">
+									<div class="row">
+									<div class="col-sm-2"><i class='fab fa-github' style='font-size:48px;color:#0AC775'></i></div>	
+									<div class="col-sm-10"><p class="p-title p-title-cambiante">Fully Responsive</p></div>
+										</div>	
+										<div class="row">
+												<div class="col-sm-2"></div>	
+												<div class="col-sm-10">Fully responsive on notebook, tablets and smartphones ant other .</div>
+										</div>
+									</div>
+							</div>
+							<div class="col-sm-4">
+									<div class="container">
+										<div class="row">
+										<div class="col-sm-2"><i class='fab fa-github' style='font-size:48px;color:#0AC775'></i></div>	
+										<div class="col-sm-10"><p class="p-title p-title-cambiante">Awesome Features</p></div>
+											</div>	
+											<div class="row">
+													<div class="col-sm-2"></div>	
+													<div class="col-sm-10">Easy-to-use, dynamic colors, grid, video, map and much more .</div>
+											</div>
+										</div>
+								</div>
 				</div>
+				<br>
+				<div class="row ml-2 mr-2 mt-5 mb-5">
+						<div class="col-sm-4">
+							<div class="container">
+								<div class="row">
+								<div class="col-sm-2"><i class='fab fa-github' style='font-size:48px;color:#0AC775'></i></div>	
+								<div class="col-sm-10"><p class="p-title p-title-cambiante">5-Star-Support</p></div>
+									</div>	
+									<div class="row">
+											<div class="col-sm-2"></div>	
+											<div class="col-sm-10">Always ready to help you create the best solution .</div>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-4">
+								<div class="container">
+									<div class="row">
+									<div class="col-sm-2"><i class='fab fa-github' style='font-size:48px;color:#0AC775'></i></div>	
+									<div class="col-sm-10"><p class="p-title p-title-cambiante">High Customizibility</p></div>
+										</div>	
+										<div class="row">
+												<div class="col-sm-2"></div>	
+												<div class="col-sm-10">Create, display everything that you want in few seconds .</div>
+										</div>
+									</div>
+							</div>
+							<div class="col-sm-4">
+									<div class="container">
+										<div class="row">
+										<div class="col-sm-2"><i class='fab fa-github' style='font-size:48px;color:#0AC775'></i></div>	
+										<div class="col-sm-10"> <p class="p-title p-title-cambiante">Up-To-Date Software</p></div>
+											</div>	
+											<div class="row">
+													<div class="col-sm-2"></div>	
+													<div class="col-sm-10">lorem er dolor sit amet, teso adipiscing elit. Mauris .</div>
+											</div>
+										</div>
+								</div>
+							</div>
+							<br>
+							<br>
+							<br>
+							<br>
+						</div>
+						
 			</div>
-  
+			<br>
+							<br>
+
+			<!-- Fin de la seccion con fondo negro -->
+
+
+			<!--Inicio de la seccion con nuestras fotos -->
+<br>
+<br>
+						<div class="container mt-5">
+								<div class="row">
+
+									<div class="col-sm-3" > 									
+										<p class="p-title-black" style="line-height: 35vh; text-align: center;">										
+												<span class="border-left pt-2" >
+														<mark style="color:#0AC775">How </mark>we works	
+												</span>										
+										</p> 
+										<button type="button" class="btn btn-outline-success btn-block">View Team</button>										
+									</div>
+
+									<div class="col-sm-3">	
+											<div class="content-small"> <img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/how3.jpg">  
+												<div class="layer-small"><div class="icon-cambiante-gde"><i class='fas fa-chevron-down'></i></div></div> 	
+											</div>										
+											<p class="p-cambiante mt-3">Diego Flores</p>
+											<p class="p-centro">Puesto</p>
+											<div class="row">	
+													<div class="col-sm-2"></div>	
+													<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>
+													<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>	
+													<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>	
+													<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>	
+													<div class="col-sm-2 "></div>													
+												</div>	
+									</div>
+
+
+									<div class="col-sm-3">
+											<div class="content-small"> <img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/how3.jpg">  
+												<div class="layer-small"><div class="icon-cambiante-gde"><i class='fas fa-chevron-down'></i></div></div> 	
+											</div>										
+											<p class="p-cambiante mt-3">Diego Flores</p>
+											<p class="p-centro">Puesto</p>	
+											<div class="row">	
+													<div class="col-sm-2"></div>	
+													<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>
+													<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>	
+													<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>	
+													<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>	
+													<div class="col-sm-2 "></div>													
+												</div>									
+									</div>
+
+									<div class="col-sm-3">									
+											<div class="content-small"> <img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/how3.jpg">  
+												<div class="layer-small"><div class="icon-cambiante-gde"><i class='fas fa-chevron-down'></i></div></div> 	
+											</div>	
+											<p class="p-cambiante mt-3">Diego Flores</p>
+											<p class="p-centro">Puesto</p>
+											<div class="row">	
+												<div class="col-sm-2"></div>	
+												<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>
+												<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>	
+												<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>	
+												<div class="col-sm-2 icon-cambiante"><i class='fab fa-facebook'></i></div>	
+												<div class="col-sm-2 "></div>													
+											</div>
+									</div>
+
+								</div>		
+						</div>
+
+			<!-- Fin de la seccion con nuestras fotos -->	
+		
+
+
+
+
+						<!-- Inicio de la seccion parallax -->	
+						<br><br>
+			<div class="parallax">
+
+				<div class="container">
+
+					<div class="row">
+						<div class="col-sm-6 ">
+							<p class="p-title-black" style="line-height: 35vh; text-align: left;">										
+									<span class="border-left pt-2" >
+											<mark style="color:#0AC775">Few </mark> Reasons Why Choose Us	
+									</span>										
+							</p> 
+						</div>
+					</div>
+			
+					<div class="row">
+								<div class="col-sm-6 first">.01</div>
+					</div>
+					<div class="row">					
+								<div class="col-sm-6 second">Clients</div>
+					</div>
+					<div class="row">
+								<div class="col-sm-6 third">Aliquam eu ante ante. Cras rutrum massa lacinia est lobortis maximus. Integer pellentesque nisl at odio porta iaculis. Vestibulum auctor libero a quam rhoncus.</div>
+					</div>	
+
+					<br>
+					
+					<div class="row">
+							<div class="col-sm-6 first">.01</div>
+					</div>
+					<div class="row">					
+								<div class="col-sm-6 second">Clients</div>
+					</div>
+					<div class="row">
+								<div class="col-sm-6 third">Aliquam eu ante ante. Cras rutrum massa lacinia est lobortis maximus. Integer pellentesque nisl at odio porta iaculis. Vestibulum auctor libero a quam rhoncus.</div>
+					</div>	
+
+					<br>
+
+					<div class="row">
+							<div class="col-sm-6 first">.01</div>
+					</div>
+					<div class="row">					
+								<div class="col-sm-6 second">Clients</div>
+					</div>
+					<div class="row ">
+								<div class="col-sm-6 third ">Aliquam eu ante ante. Cras rutrum massa lacinia est lobortis maximus. Integer pellentesque nisl at odio porta iaculis. Vestibulum auctor libero a quam rhoncus.</div>
+					</div>
+
+				</div>
+				<br><br>
+			</div>	
+					
+			
+
+			<!-- Fin de la seccion parallax -->	
+			<div class="owl-carousel">
+			<div class="content"> <a href="index.php"> <img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/slide1.jpg">  
+				<div class="layer"><div class="icon-cambiante-gde"><i class='fas fa-chevron-down'></i></div></div> 	
+			</a></div>
+			<div class="content"> <a href="index.php"> <img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/slide2.jpg">  
+				<div class="layer"><div class="icon-cambiante-gde"><i class='fas fa-chevron-down'></i></div></div> 	
+			</a></div>
+			<div class="content"> <a href="index.php"> <img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/slide3.jpg">  
+				<div class="layer"><div class="icon-cambiante-gde"><i class='fas fa-chevron-down'></i></div></div> 	
+			</a></div>
+			<div class="content"> <a href="index.php"> <img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/slide1.jpg">  
+				<div class="layer"><div class="icon-cambiante-gde"><i class='fas fa-chevron-down'></i></div></div> 	
+			</a></div>
+			<div class="content"> <a href="index.php"> <img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/slide2.jpg">  
+				<div class="layer"><div class="icon-cambiante-gde"><i class='fas fa-chevron-down'></i></div></div> 	
+			</a></div>
+			<div class="content"> <a href="index.php"> <img src="https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/slide3.jpg">  
+				<div class="layer"><div class="icon-cambiante-gde"><i class='fas fa-chevron-down'></i></div></div> 	
+			</a></div>
+		  </div>
+
+		  
+		  
+
+		  
+			
 @endsection 

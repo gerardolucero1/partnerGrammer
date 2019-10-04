@@ -7,49 +7,182 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">    
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>PartnerGrammer</title>
     <style>
-    .carousel-item {
-        height: 100vh;
-        min-height: 350px;
-        background: no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        }
-        
-								    .button-view-more{
-                                        background:white; border-radius:5px; text-align:center; padding:15px; color:#2c3e50; font-weight:bold; width:10em;
-                                        }
-									.button-view-more:hover{
-                                        background:white; border-radius:5px; text-align:center; padding:15px; color:#1abc9c; font-weight:bold; width:10em; transition: all .2s ease; cursor:pointer;
-                                        }
-							        .maintenance{
-                                        width:25%; margin-top:-40%; transition: all .2s ease;
-                                        }
-									.maintenance:hover{
-                                        width:30%; margin-top:-40%; margin-left:-2.5%; cursor:pointer;transition: all .2s ease;
-                                        }
-									.mobile{
-										width:15%; margin-top:20%; margin-left:-20%; cursor:pointer;transition: all .2s ease;
-										}
-									.mobile:hover{
-										width:20%; margin-top:20%; margin-left:-22.5%; cursor:pointer;transition: all .2s ease;
-										}
-                                    .custom{
-										width:15%; margin-top:5%; margin-left:15%; cursor:pointer;transition: all .2s ease;
-										}
-									.custom:hover{
-										width:18%; margin-top:7%; margin-left:17.5%; cursor:pointer;transition: all .2s ease;
-										}
-									.web{
-										width:40%; margin-top:15%; margin-left:10%; cursor:pointer;transition: all .2s ease;
-										}
-									.web:hover{
-										width:45%; margin-top:15%; margin-left:7.5%; cursor:pointer;transition: all .2s ease;
-										}
+                  .carousel-item {
+                      height: 100vh;
+                      min-height: 350px;
+                      background: no-repeat center center scroll;
+                      -webkit-background-size: cover;
+                      -moz-background-size: cover;
+                      -o-background-size: cover;
+                      background-size: cover;
+                      }      								 
+							    
+                    .img-center {
+                      text-align: center;
+                    }
+                  .p-normal{
+                    font-size: 22px;
+                    font-weight: bold;
+                  }
+                  .p-white{
+                    font-size: 22px;
+                    font-weight: bold;
+                    color:white;
+                  }
+                  .p-title{
+                    font-size: 27px;
+                    font-weight: bolder;
+                    color:white;
+                  }
+                  .p-title-black{
+                    font-size: 27px;
+                    font-weight: bolder;
+                    color:black;
+                  }
+                  .container-black{
+                    background-color: #233142;
+                    display: inline-block;
+                    width: 100%;
+                    color:white;
+                    text-align: center;
+                  }
+                  .contenedor-galeria{             
+                  }
+                  .contenedor-galeria:hover{
+                  -webkit-filter: grayscale(80%);
+                    filter: grayscale(80%);                
+                  }
+                  .p-title-cambiante{
+                    font-size: 27px;
+                    font-weight: bolder;
+                    color:white;
+                  }
+                  .p-title-cambiante:hover{
+                    color:#0ac775;
+                    font-size: 27px;
+                    font-weight: bolder;
+                  }
+                  .p-cambiante{
+                    color:black;
+                    font-size: 27px;
+                    text-align: center;
+                  }
+                  .p-cambiante:hover{
+                    color:#0ac775;
+                    font-size: 27px;
+                    text-align: center;
+                  }
+                  .icon-cambiante{
+                    color:black;
+                    font-size: 18px;
+                    text-align: center;
+                  }
+                  .icon-cambiante:hover{
+                    color:#0ac775;
+                    font-size: 18px;
+                    text-align: center;
+                  }  
+                  .icon-cambiante-gde{                    
+                    color:#0ac775;
+                    font-size: 30px;
+                    text-align: center;
+                  }
+                  .p-centro{
+                    text-align: center;
+                    font-size: 22px;
+                  }
+                  body {
+                      font-family: 'Montserrat';font-size: 18px;
+                  }
+                  .parallax {
+                    /* The image used */
+                    background-image: url("https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/paralax.jpg");
+
+                    /* Set a specific height */
+                    min-height: 500px; 
+
+                    /* Create the parallax scrolling effect */
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  }
+                  div.first {                     
+                    color:#0ac775;
+                    font-size: 40px;
+                  }               
+                  div.second {                               
+                    color:black;
+                    font-size: 25px;
+                  }               
+                  div.third {                               
+                    color:gray;
+                    font-size: 20px;
+                  } 
+                  .a-cambiante{
+                  }
+                  .a-cambiante:hover{                    
+                    -webkit-filter: grayscale(80%);
+                    filter: grayscale(80%);      
+                  }
+                  .content{
+                    position: relative;
+                    width: 333px;
+                    height: 333px;                    
+                    overflow: hidden;
+                  }
+                  .content:hover .layer{
+                    opacity: 1;
+                  }
+                  .layer{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 333px;
+                    height: 333px;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    opacity: 0;
+                    transition: all 0.4s;
+                  }
+                    .content img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                  }
+                  .content-small{
+                    position: relative;
+                    width: 250px;
+                    height: 250px;                    
+                    overflow: hidden;
+                  }
+                  .content-small:hover .layer-small{
+                    opacity: 1;
+                  }
+                  .layer-small{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 250px;
+                    height: 250px;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    opacity: 0;
+                    transition: all 0.4s;
+                  }
+                    .content-small img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                  }
 							</style>
    
 </head>
@@ -95,7 +228,7 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+      <div class="carousel-item active" style="background-image: url('https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/slide1.jpg')">
         <div class="carousel-caption d-none d-md-block">
           <h2 class="display-4">First Slide</h2>
           <p class="lead">This is a description for the first slide.</p>
@@ -103,7 +236,7 @@
         </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+      <div class="carousel-item" style="background-image: url('https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/slide2.jpg')">
         <div class="carousel-caption d-none d-md-block">
           <h2 class="display-4">Second Slide</h2>
           <p class="lead">This is a description for the second slide.</p>          
@@ -111,7 +244,7 @@
         </div>
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+      <div class="carousel-item" style="background-image: url('https://adpro3d-os.com/IMAGENES_publicas/Sitio-partnergrammer/slide3.jpg')">
         <div class="carousel-caption d-none d-md-block">
           <h2 class="display-4">Third Slide</h2>
           <p class="lead">This is a description for the third slide.</p>          
@@ -132,28 +265,30 @@
 <!-- Page Content -->
 
 
-    <div class="container">    
+    
     @yield('content')
-    </div>
+    
 </body>
+<script>
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items:6,
+    loop:true,
+    margin:0,
+  });
+});
+  </script>
+                                
                                 <script>
-                                function manitance(){
-                                        document.getElementById('title_services').innerHTML="Maintenance";
-                                        document.getElementById('content').innerHTML="Once your software is running we can provide maintenance for your software to ensure, it is up to date on the latest technologies or if you need to add more functions to it.";
-                                        }
-                                    function mobile(){
-                                        document.getElementById('title_services').innerHTML="Mobile";
-                                        document.getElementById('content').innerHTML="At Partnergrammer, we develop serious (yet beautiful) apps on iPhone, iPad, Android & Windows.";
-                                        }
-                                        function web(){
-                                        document.getElementById('title_services').innerHTML="Web Development";
-                                    document.getElementById('content').innerHTML="Everything from sophisticated business automation platforms to robust email clients, to complex e-commerce platforms, leverage web development to provide powerful software to the world in real-time.";
-                                        }
-                                        function custom(){
-                                        document.getElementById('title_services').innerHTML="Custom Software";
-                                        document.getElementById('content').innerHTML="We develop functional and yet beautiful apps for IOS, Android & Windows. We aim to deliver great User Experience because without it; minus well put your money in the trash can.  ";
-                                        }
-                                </script>
+                                    import FadeText from 'fade-text';
+
+                                    const fadeText = new FadeText();
+                                    fadeText.applyAnimation('my-text');
+                                    </script>
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+                                    
+                            
 </html>
 
 
